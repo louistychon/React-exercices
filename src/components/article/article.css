@@ -1,0 +1,21 @@
+.article{
+    width: 100%;
+    display: flex;
+}
+
+img{
+    width: 40%;
+    padding-left: 30%;
+    padding-top: 3%;
+}
+.d-left, .d-right{
+    width: 50%;
+}
+
+.d-right > p {
+    color: white;
+}
+
+.d-right > h1 {
+    color: yellow;
+}
