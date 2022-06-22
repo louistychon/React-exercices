@@ -8,13 +8,22 @@ class Header extends React.Component {
 }
 
 class Nav extends React.Component {
+    link1 = () => {
+        console.log("accueil")
+    }
+    link2 = () => {
+        console.log("galerie")
+    }
+    link3 = () => {
+        console.log("contact")
+    }
     render(){
     return (
     <nav>
         <div className="navigationbuttons">
-        <button>Link 1</button>
-        <button>Link 2</button>
-        <button>Link 3</button>
+        <button onClick={this.link1}>Link 1</button>
+        <button onMouseEnter={this.link2}>Link 2</button>
+        <button onDoubleClick={this.link3}>Link 3</button>
         </div>
         <Searchbar />
     </nav>
